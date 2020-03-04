@@ -9,7 +9,27 @@ public class FindNumberWithEvenNumberOfdigits {
 
 	}
 
+	  
+	  
+	  /**
+	   * fast solution
+	   * @param nums
+	   * @return
+	   */
+	  public int findNumbersNew(int[] nums) {
+	        int count = 0;
+	        for(int e : nums){
+	            if( Integer.toString(e).length() % 2 == 0) count++;
+	        }
+	        return count;
+	    }
 	
+	  
+	  /**
+	   * Brute force
+	   * @param nums
+	   * @return
+	   */
 	  public int findNumbers(int[] nums) {
 	        
 		  
@@ -38,4 +58,5 @@ public class FindNumberWithEvenNumberOfdigits {
 		  return res;
 	  }
 	  
+
 }
