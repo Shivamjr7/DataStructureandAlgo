@@ -1,1 +1,1 @@
-This is a place for ds algo questions
+Ds and Algo questions with solutions
