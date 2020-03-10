@@ -1,6 +1,5 @@
 package linkedlist;
 
-import org.w3c.dom.Node;
 
 public class PalindromeLinkedList {
 	Node head;
