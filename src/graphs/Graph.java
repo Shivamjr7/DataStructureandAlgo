@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class Graph {
 	
 	/**
-	 * (loop)
+	 * 
 	 *  0 - > 1
 	 * 	^    /
 	 *  |  /
