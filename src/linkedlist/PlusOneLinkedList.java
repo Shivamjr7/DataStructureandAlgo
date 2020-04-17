@@ -73,6 +73,9 @@ public class PlusOneLinkedList {
 				node.data = 0;
 				return true;
 			}
+			else {
+				return false;
+			}
 
 		}
 
