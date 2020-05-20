@@ -7,8 +7,8 @@ public class MinWindowSubstring {
 
 	public static void main(String[] args) {
 
-		String str = "aa";
-		String t = "aa";
+		String str = "ADOBECODEBANC";
+		String t = "ABC";
 
 		System.out.println(minWindow(str, t));
 	}
